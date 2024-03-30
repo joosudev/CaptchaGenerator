@@ -1,5 +1,5 @@
 # CaptchaGenerator
-**Descipcion:** Es una herramienta generar códigos captcha personalizados .
+**Descipcion:** Web App que te genera códigos captcha personalizados.
 
 ## Utilización
 

@@ -1,43 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Captcha Generator | josudev</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="shortcut icon" href="/icon_1.webp">
-  <!-- Fontawesome CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Generator | josudev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/icon_1.webp">
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
 
 <body>
-  <div class="container">
-    <header>Captcha Generator</header>
-    <div class="input_field captch_box">
-      <input type="text" value="" disabled />
-      <button class="refresh_button">
-        <i class="fa-solid fa-rotate-right"></i>
-      </button>
+    <div class="container">
+        <header>Captcha Generator</header>
+        <div class="input_field captch_box">
+            <input type="text" value="" disabled>
+            <button class="refresh_button">
+                <i class="fas fa-sync-alt"></i>
+            </button>
+        </div>
+        <div class="input_field captch_input">
+            <input type="text" placeholder="Ingresa captcha">
+        </div>
+        <div class="message">El captcha ingresado es correcto</div>
+        <div class="input_field button disabled">
+            <button>Enter Captcha</button>
+        </div>
     </div>
-    <div class="input_field captch_input">
-      <input type="text" placeholder="Ingresa captcha" />
-    </div>
-    <div class="message">El captcha ingresado es correcto</div>
-    <div class="input_field button disabled">
-      <button>Enter Captcha</button>
-    </div>
-  </div>
-  <footer>
-    <p>
-        Joosudev - Este proyecto está bajo la Licencia MIT &copy; <span id="currentYear"></span>
-    </p>
-    <a href="https://github.com/joosudev/controlgastos.git" target="_blank" rel="noopener noreferrer">
-        <img src="https://img.icons8.com/material-rounded/48/ffffff/github.png" alt="GitHub" class="github-icon">
-    </a>
-</footer>
-  <script src="./script.js"></script>
+
+    <footer>
+        <p>
+            Joosudev - Este proyecto está bajo la Licencia MIT &copy; <span id="currentYear"></span>
+        </p>
+        <a href="https://github.com/joosudev/controlgastos.git" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.icons8.com/material-rounded/48/ffffff/github.png" alt="GitHub" class="github-icon">
+        </a>
+    </footer>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
